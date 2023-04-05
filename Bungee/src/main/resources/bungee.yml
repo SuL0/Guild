@@ -1,0 +1,22 @@
+name: Guild
+version: 1.0-SNAPSHOT
+main: kr.sul.guild.Main
+
+mariaDB:
+    ip: 127.0.0.1
+    port: 3306
+    userName: ""
+    password: ""
+    schema: ""
+
+
+guild_creation_fee: 5000
+commands:
+    helpMessageForm: "§7▶ {color}{command} §f§l{args} §f: §f{description}"  # 1: 최상위커맨드(길드) 2: 커맨드(생성,삭제..) 3: args(길드명,플레이어..)  4: 설명
+    create: "§2길드§f를 §e생성§f합니다."
+    memberList: "길드원 목록을 확인합니다."
+    invite: "대상 유저를 길드에 초대합니다."
+    chat: "길드 채팅을 ON / OFF 합니다."
+    kick: "대상 유저를 길드에서 추방합니다."
+    leave: "해당 길드에서 탈퇴합니다"
+    disband: "왕관을 쓰려는 자 그 무게를 견뎌라. §7- 셰익스피어"

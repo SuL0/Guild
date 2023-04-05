@@ -1,0 +1,10 @@
+# Project exclude paths
+/.gradle/
+/build/
+/Bukkit/build/
+/Bukkit/build/classes/kotlin/main/
+/Bukkit/debug/
+/Bungee/build/
+/Bungee/build/classes/kotlin/main/
+/Common/build/
+/Common/build/classes/kotlin/main/
